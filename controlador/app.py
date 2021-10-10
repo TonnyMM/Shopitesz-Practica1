@@ -22,6 +22,11 @@ def registrarNuevoProducto():
 def ModificarProducto():
     return render_template('Productos/editarProducto.html')
 
+@app.route('/recopilarDatosEditados',methods=['post'])
+def recopilarDatosEditados():
+    nombre = request.form['nombre']
+    return 'Se guardaron los cambios del producto: '+nombre
+
 @app.route('/EliminarProducto')
 def EliminarProducto():
     return render_template('Productos//eliminarProducto.html')
