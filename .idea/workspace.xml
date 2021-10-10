@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="df1a36a1-de50-4151-a2a9-768c4da3559c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/controlador/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/controlador/app.py" afterDir="false" />
-    </list>
+    <list default="true" id="df1a36a1-de50-4151-a2a9-768c4da3559c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -24,11 +21,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/controlador/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="22">
+              <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vista/Productos/registrarProducto.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -36,16 +42,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/vista/Productos/eliminarProducto.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+            <state relative-caret-position="153">
+              <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/vista/Productos/consultarProductos.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
+            <state relative-caret-position="289">
               <caret line="102" column="4" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="28" />
             </state>
           </provider>
@@ -78,8 +84,9 @@
       <list>
         <option value="$PROJECT_DIR$/vista/comunes/Index.html" />
         <option value="$PROJECT_DIR$/vista/Productos/editarProducto.html" />
-        <option value="$PROJECT_DIR$/vista/Productos/eliminarProducto.html" />
         <option value="$PROJECT_DIR$/controlador/app.py" />
+        <option value="$PROJECT_DIR$/vista/Productos/registrarProducto.html" />
+        <option value="$PROJECT_DIR$/vista/Productos/eliminarProducto.html" />
       </list>
     </option>
   </component>
@@ -196,7 +203,8 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24962178" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -234,24 +242,31 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vista/Productos/consultarProductos.html">
+    <entry file="file://$PROJECT_DIR$/vista/Productos/registrarProducto.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="102" column="4" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vista/Productos/eliminarProducto.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="7" lean-forward="true" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        <state>
+          <caret column="10" lean-forward="true" selection-start-column="10" selection-end-column="10" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controlador/app.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+        <state relative-caret-position="22">
+          <caret line="12" column="24" lean-forward="true" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vista/Productos/eliminarProducto.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="24" selection-start-line="9" selection-start-column="24" selection-end-line="9" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vista/Productos/consultarProductos.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="102" column="4" lean-forward="true" selection-start-line="102" selection-start-column="4" selection-end-line="102" selection-end-column="28" />
         </state>
       </provider>
     </entry>
