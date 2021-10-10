@@ -1,4 +1,4 @@
-from flask import Flask,render_template
+from flask import Flask,render_template, request
 app = Flask(__name__, template_folder='../vista')
 
 @app.route('/')
@@ -12,6 +12,11 @@ def consultarProductos():
 @app.route('/registrarProducto')
 def registrarProducto():
     return render_template('Productos/registrarProducto.html')
+
+@app.route('/registrarNuevoProducto',methods=['post'])
+def registrarNuevoProducto():
+    nombre = request.form['nombre']
+    return 'Se ha registrado el producto: '+nombre
 
 @app.route('/ModificarProducto')
 def ModificarProducto():
